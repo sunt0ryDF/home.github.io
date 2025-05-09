@@ -1,0 +1,61 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow: hidden;
+}
+
+/* Coming Soon Page Styles */
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #736DC7 0%, #131140 50%, #1E1E1E 100%);
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 64px;
+  font-weight: 700; /* Bold weight */
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 2rem; /* Increased vertical spacing */
+}
+
+.sub-heading {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500; /* Medium weight */
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 3rem; /* Increased vertical spacing */
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 40px;
+  }
+  
+  .sub-heading {
+    font-size: 14px;
+  }
+}
